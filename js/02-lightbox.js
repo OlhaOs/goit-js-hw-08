@@ -28,12 +28,12 @@ function onGalleryItemClick(e) {
 
 function openGallery() {
   let lightbox = new SimpleLightbox('.gallery a', {
-    captionSelector: 'img',
-    captionType: 'attr',
+    // captionSelector: 'img',
+    // captionType: 'attr',
     captionsData: 'alt',
-    captionPosition: 'top',
-    // captionDelay: 900,
-    enableKeyboard: true,
+    // captionPosition: 'top',
+    captionDelay: 250,
+    // enableKeyboard: true,
     maxZoom: 0,
     fadeSpeed: 700,
   });
